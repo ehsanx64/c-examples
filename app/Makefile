@@ -1,9 +1,12 @@
-PROJECT_NAME=app
+APP=app
 CC=gcc
-app:
+
+$(APP):
 	@echo "### Compiling the program..."
-	@$(CC) -o $(PROJECT_NAME) *.c
+	@$(CC) -o $(APP) *.c
+
 clean:
-	@rm ./$(PROJECT_NAME)
+	@rm ./$(APP)
+
 run:
-	./$(PROJECT_NAME)
+	./$(APP)
