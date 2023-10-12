@@ -1,3 +1,6 @@
+/*
+ * floats
+ */
 #include <stdio.h>
 
 /*

@@ -1,3 +1,7 @@
+/*
+ * functions
+ */
+
 #include <stdio.h>
 
 /*
